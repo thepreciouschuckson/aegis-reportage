@@ -84,6 +84,41 @@ letter-spacing: 1px;
     object-fit: cover;
 }
 
+.news-layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+}
+
+.main-news h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    background: white;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.ad-box {
+    background: #eee;
+    padding: 40px;
+    text-align: center;
+}
+
 .site-footer {
     background: #0f172a;
     color: white;
